@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/MenshikovZakhar/lubimovka/issues"
   },
-  "homepage": "https://github.com/MenshikovZakhar/lubimovka#readme",
+  "homepage": "https://github.com/MenshikovZakhar/lubimovka/",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
