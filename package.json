@@ -1,5 +1,39 @@
 {
   "dependencies": {
+    "core-js": "^3.26.1",
     "tiny-slider": "^2.9.4"
+  },
+  "name": "lubimovka",
+  "description": "Фестиваль молодой драматургии Любимовка - это независимый некоммерческий коллективный проект российских драматургов.\r Каждый год Любимовка проводит приём и отбор новых пьес начинающих и признанных русскоязычных авторов, чтобы дать возможность начинающим авторам найти свой голос и быть услышанными.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenshikovZakhar/lubimovka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenshikovZakhar/lubimovka/issues"
+  },
+  "homepage": "https://github.com/MenshikovZakhar/lubimovka#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.2",
+    "cssnano": "^5.1.14",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.1",
+    "postcss-loader": "^7.0.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }

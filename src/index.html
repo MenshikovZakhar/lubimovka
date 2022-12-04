@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <!-- Библиотека для Слайдера в Section 5 -->
-  <link rel="stylesheet" href="./pages/index.css" />
+
   <title>Любимовка</title>
 </head>
 
@@ -18,10 +18,11 @@
     <nav class="nav">
       <!-- Nav header -->
       <div class="nav__header">
-        <img src="./images/header/logo.svg" class="nav__logo" alt="Логотип: Любимовка" />
+
+        <img src='<%=require("./images/header/logo.svg")%>' class="nav__logo" alt="Логотип: Любимовка" />
         <button type="button" class="nav__projects-button">
           Проекты
-          <img class="nav__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов" />
+          <img class="nav__arrow" src='<%=require("./images/header/arrow-left.svg")%>' alt="Kнопка проектов" />
         </button>
         <!-- Hamburger menu -->
         <div class="nav__hamburger">
@@ -33,62 +34,62 @@
       <!-- Links -->
       <ul class="nav__list">
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Афиша</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Библиотека</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Проекты</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">История</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Блог</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Новости</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">О фестивале</a>
         </li>
         <li class="nav__item nav__item_vertical-line">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">Контакты</a>
         </li>
         <!-- Social links -->
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">fb</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">inst</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">ytube</a>
         </li>
         <li class="nav__item">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">tlgrm</a>
         </li>
         <li class="nav__item nav__item_vertical-line">
-          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <img class="nav__arrow nav__arrow_right" src='<%=require("./images/header/arrow-left.svg")%>' alt="Cтрелка" />
           <a class="nav__link" href="#">vk</a>
         </li>
         <!-- + Button -->
         <li class="nav__item">
           <button type="button" class="nav__button">
-            <img src="./images/header/plus.svg" alt="Kнопка: Поддержать">
+            <img src='<%=require("./images/header/plus.svg")%>' alt="Kнопка: Поддержать">
             Поддержать
           </button>
         </li>
@@ -99,7 +100,7 @@
   <aside class="aside">
     <button type="button" class="aside__button">
       Проекты
-      <img class="aside__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов">
+      <img class="aside__arrow" src='<%=require("./images/header/arrow-left.svg")%>' alt="Kнопка проектов">
     </button>
   </aside>
   <main>
@@ -112,10 +113,10 @@
         <time class="preview-project__data">12 мая 20:00</time>
         <button class="preview-project__btn">
           <p class="preview-project__btn-text">Билеты</p>
-          <img class="preview-project__btn-union" src="./images/union-right.svg" alt="стрелка">
+          <img class="preview-project__btn-union" src='<%=require("./images/union-right.svg")%>' alt="стрелка">
         </button>
       </div>
-      <img class="preview-project__pic" src="./images/preview-project-pic.png" alt="Девушка в вуали">
+      <img class="preview-project__pic" src='<%=require("./images/preview-project-pic.png")%>' alt="Девушка в вуали">
       <p class="preview-project__pic-text">Семён Серзин сделал читку этой пьесы в рамках основной программы
         Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
         Пушкина принял спектакль в репертуар.</p>
@@ -209,33 +210,33 @@
       <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
       <ul class="gallery__items">
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
+          <img class="gallery__image" src='<%=require("./images/gallery__item1.png")%>' alt="2 человека на сцене">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item2.png" alt="Актриса">
+          <img class="gallery__image" src='<%=require("./images/gallery__item2.png")%>' alt="Актриса">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item3.png" alt="Актер">
+          <img class="gallery__image" src='<%=require("./images/gallery__item3.png")%>' alt="Актер">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item4.png" alt="Музыкальная группа">
+          <img class="gallery__image" src='<%=require("./images/gallery__item4.png")%>' alt="Музыкальная группа">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item5.png" alt="Собрание">
+          <img class="gallery__image" src='<%=require("./images/gallery__item5.png")%>' alt="Собрание">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item6.png" alt="Девушка">
+          <img class="gallery__image" src='<%=require("./images/gallery__item6.png")%>' alt="Девушка">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item7.png" alt="Люди на репетиции">
+          <img class="gallery__image" src='<%=require("./images/gallery__item7.png")%>' alt="Люди на репетиции">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item8.png" alt="девушка">
+          <img class="gallery__image" src='<%=require("./images/gallery__item8.png")%>' alt="девушка">
         </li>
       </ul>
     </section>
     <!-- секция 4-->
-    <section class="slider" >
+    <section class="slider">
       <div class="slider__title-container">
         <h6 class="title-h6">Рецензии</h6>
         <div class="buttons slider__button-container">
@@ -243,25 +244,33 @@
             <svg class=" slider-btn_part_svg">
               <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
             </svg>
-            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
+            <img src='<%=require("./images/arrow.svg")%>' alt="стрелка" class="slider-btn_part_arrow">
           </button>
           <button class="next slider-btn " type="button">
             <svg class=" slider-btn_part_svg">
               <circle class="slider-btn_part_circle" cx="24" cy="24" r="22"></circle>
             </svg>
-            <img src="./images/arrow.svg" alt="стрелка" class="slider-btn_part_arrow">
+            <img src='<%=require("./images/arrow.svg")%>' alt="стрелка" class="slider-btn_part_arrow">
           </button>
         </div>
       </div>
       <div class="slider__container">
         <div class="slider__dots button"></div>
-        <div >
+        <div>
           <div class="slider__slide slider__slide_active">
             <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
-   <!--           <button class="slider__more">
+              <img src='<%=require("./images/new_times.svg")%>' alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно
+                нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И
+                вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается
+                терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука
+                одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это
+                не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о
+                разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные,
+                саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+              <img class="slider__more" src='<%=require("./images/more.svg")%>' alt="Читать дальше">
+              <!--           <button class="slider__more">
                <img 
                  class="slider__more_part_arrow" 
                  src="./images/arrow-svg.svg" 
@@ -273,38 +282,59 @@
           </div>
           <div class="slider__slide">
             <div class="slider__content">
-              <img src="./images/sobaka.svg" alt="Название источника" class="slider__author" >
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
-             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+              <img src='<%=require("./images/sobaka.svg")%>' alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно
+                нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И
+                вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается
+                терроризировать его и всех вокруг. </p>
+              <img class="slider__more" src='<%=require("./images/more.svg")%>' alt="Читать дальше">
             </div>
           </div>
           <div class="slider__slide">
             <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+              <img src='<%=require("./images/new_times.svg")%>' alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно
+                нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И
+                вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается
+                терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука
+                одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это
+                не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о
+                разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные,
+                саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+              <img class="slider__more" src='<%=require("./images/more.svg")%>' alt="Читать дальше">
             </div>
           </div>
           <div class="slider__slide">
             <div class="slider__content">
-              <img src="./images/new_times.svg" alt="Название источника" class="slider__author">
-              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
-             <img class="slider__more" src="./images/more.svg" alt="Читать дальше">
+              <img src='<%=require("./images/new_times.svg")%>' alt="Название источника" class="slider__author">
+              <p class="slider__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно
+                нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И
+                вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается
+                терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука
+                одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это
+                не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о
+                разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные,
+                саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+              <img class="slider__more" src='<%=require("./images/more.svg")%>' alt="Читать дальше">
             </div>
           </div>
         </div>
 
-        </div>
-       
-      </section>
+      </div>
+
+    </section>
     <!-- секция 5-->
     <section class="slider-comments">
       <div class="slider-comments__header">
         <h2 class="slider-comments__title">Отзывы зрителей</h2>
         <div class="slider-comments__buttons">
-          <img class="slider-comments__button slider-comments__button_prev" src="./images/Arrow-last.svg" alt="Назад" />
-          <img class="slider-comments__button slider-comments__button_next" src="./images/Arrow-next.svg"
-            alt="Вперед" />
+          <img class="slider-comments__button slider-comments__button_prev"
+            src='<%=require("./images/Arrow-last.svg")%>' alt="Назад" />
+          <img class="slider-comments__button slider-comments__button_next"
+            src='<%=require("./images/Arrow-next.svg")%>' alt="Вперед" />
         </div>
       </div>
       <div class="swiper">
@@ -358,15 +388,15 @@
           <p class="social-media__text">Рассказать</p>
           <ul class="social-media__list">
             <li class="social-media__item">
-              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <img class="social-media__arrow" src='<%=require("./images/arrow-right.svg")%>' alt="стрелка">
               <a class="social-media__link" href="#">fb</a>
             </li>
             <li class="social-media__item">
-              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <img class="social-media__arrow" src='<%=require("./images/arrow-right.svg")%>' alt="стрелка">
               <a class="social-media__link" href="#">vk</a>
             </li>
             <li class="social-media__item">
-              <img class="social-media__arrow" src="./images/arrow-right.svg" alt="стрелка">
+              <img class="social-media__arrow" src='<%=require("./images/arrow-right.svg")%>' alt="стрелка">
               <a class="social-media__link" href="#">twtr</a>
             </li>
           </ul>
@@ -409,17 +439,17 @@
         </nav>
         <ul class="footer__partners">
           <li class="footer__partners-header">Генеральные партнеры</li>
-          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-1.png"
+          <li class="footer__partner"><img class="footer__img" src='<%=require("./images/footer__partner-1.png")%>'
               alt="Лого фонда Михаила Прохорова">
             <h3 class="footer__partner-title">Генеральный партнёр</h3>
           </li>
-          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-2.png"
+          <li class="footer__partner"><img class="footer__img" src='<%=require("./images/footer__partner-2.png")%>'
               alt="Лого организации Мосбрю"></li>
-          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-3.png"
+          <li class="footer__partner"><img class="footer__img" src='<%=require("./images/footer__partner-3.png")%>'
               alt="Лого организации СБТГ">
             <h3 class="footer__partner-title">Онлайн-трансляции</h3>
           </li>
-          <li class="footer__partner"><img class="footer__img" src="./images/footer__partner-4.png"
+          <li class="footer__partner"><img class="footer__img" src='<%=require("./images/footer__partner-4.png")%>'
               alt="Лого А поговорить?.."></li>
         </ul>
       </div>

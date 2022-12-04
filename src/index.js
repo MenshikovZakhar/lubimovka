@@ -1,4 +1,4 @@
-import { toggleNav, closeNav, toggleHeader } from '../scripts/components/nav.js';
+import './pages/index.css';
 
 /* ---------------Запуск видео--------------- */
 const videoPlayButton = document.querySelector('.video__play-button');
@@ -40,7 +40,7 @@ const dotActiveClass = 'slider__dot_active'
 const slideActiveClass = 'slider__slide_active'
 let timeoutId
 
-function getNextPrev () {
+function getNextPrev() {
   const activeSlide = document.querySelector('.slider__slide_active')
   const activeIndex = slides.indexOf(activeSlide)
   let next, prev
@@ -56,7 +56,7 @@ function getNextPrev () {
   }
   return [next, prev]
 }
-function getPosition () {
+function getPosition() {
   const activeSlide = document.querySelector('.slider__slide_active')
   const activeIndex = slides.indexOf(activeSlide)
   const [next, prev] = getNextPrev()
@@ -81,7 +81,7 @@ buttons.forEach(button => {
     else if (button.classList.contains('prev')) getPrevSlide()
   })
 })
-function getNextSlide () {
+function getNextSlide() {
   clearInterval(timeoutId)
   const current = document.querySelector('.slider__slide_active')
   const [next, prev] = getNextPrev()
@@ -98,7 +98,7 @@ function getNextSlide () {
   getActiveDot()
   autoLoop()
 }
-function getPrevSlide () {
+function getPrevSlide() {
   clearInterval(timeoutId)
   const current = document.querySelector('.slider__slide_active')
   const [next, prev] = getNextPrev()
@@ -120,7 +120,7 @@ slides.forEach(slide => {
   dot.classList.add('slider__dot')
   dotsEl.appendChild(dot)
 })
-function getActiveDot () {
+function getActiveDot() {
   const allDots = dotsEl.querySelectorAll('.slider__dot')
   allDots.forEach(dot => {
     dot.classList.remove(dotActiveClass)
@@ -129,7 +129,7 @@ function getActiveDot () {
   const activeIndex = slides.indexOf(activeSlide)
   allDots[activeIndex].classList.add(dotActiveClass)
 }
-function functionalDots () {
+function functionalDots() {
   const allDots = dotsEl.querySelectorAll('.slider__dot')
   allDots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
@@ -137,7 +137,7 @@ function functionalDots () {
     })
   })
 }
-function getDotSlide (index) {
+function getDotSlide(index) {
   clearTimeout(timeoutId)
   slides.forEach(slide => {
     slide.classList.remove(slideActiveClass)
@@ -149,7 +149,7 @@ function getDotSlide (index) {
   autoLoop()
 }
 
-function autoLoop () {
+function autoLoop() {
   timeoutId = setTimeout(() => {
     getNextSlide()
   }, 50000)
