@@ -27,7 +27,7 @@ module.exports = {
         },
         { test: /\.txt$/, use: 'raw-loader' },
         {
-            test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+            test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf|mp4)$/,
             type: 'asset/resource',
         },
         {
